@@ -9,7 +9,6 @@ Codex 原生读取项目根目录的 `AGENTS.md`，无需额外配置。
 ## 全局配置（~/.codex/config.toml）
 
 ```toml
-# 让 Codex 也读取 CLAUDE.md 作为备选
 project_doc_fallback_filenames = ["CLAUDE.md", "claude.md"]
 ```
 

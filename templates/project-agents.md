@@ -1,7 +1,3 @@
-# 新项目 AGENTS.md 模板
-
-> 复制到新项目根目录，命名为 `AGENTS.md`，然后补充项目专属内容。
-
 # {项目名称}
 
 > 一句话描述这个项目是做什么的。
@@ -20,37 +16,34 @@
 ## 开发命令
 
 ```bash
-# 安装依赖
-pnpm install
-
-# 开发服务器
-pnpm dev
-
-# 构建
-pnpm build
-
-# 测试
-pnpm test
-
-# 代码检查
-pnpm lint
+pnpm install   # 安装依赖
+pnpm dev       # 开发服务器
+pnpm build     # 构建
+pnpm test      # 测试
+pnpm lint      # 代码检查
 ```
 
-## 编码规范
+## 协作规范
 
-（参考 ai-coding-conventions 仓库的 shared/ 目录）
+引用 [ai-collaboration-conventions](https://github.com/zengguangzhong/ai-coding-conventions) 仓库。
 
-- 先思考再编码
+### 核心原则
+- 先思考再动手
 - 简洁优先，最少代码解决问题
 - 精准变更，只改必须改的
 - 目标驱动，可验证的成功标准
 
+### 沟通
+- 结论先行
+- 有明确观点
+- 不确定就说不确定
+
 ## 项目专属规则
 
-（根据项目特点添加，比如：）
+（根据项目特点补充）
 
 ### 注意事项
-- （这个项目特有的坑、约定、依赖版本要求等）
+- （项目特有的坑、约定、依赖版本要求）
 
 ### 架构决策
 - （关键的架构选择和原因）
